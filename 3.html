@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudentForm</title>
+    <style>
+        h1{
+            color:blueviolet;
+            text-align:center;
+        }
+        body{
+            background-image: url(image.jpg);
+        }
+    </style>
+</head>
+<body>
+    <fieldset>
+    <form>
+        <h1>Student Details :</h1>
+        <p><label>First Name : <input type = "text" id = "fn" name = "fn" placeholder="Enter your first name" ></label>
+        <label>Last Name : <input type = "text" id = "ln" name = "ln" placeholder="Enter your last name"></label></p>
+        <p><label>Mother Name : <input type = "text" id = "mn" name = "mn" ></label></p>
+        <p><label>Father Name : <input type = "text" id = "fan" name = "fan" ></label></p>
+        <p><label>Student Number : <input type = "tel" id = "sn" name = "sn" ></label></p>
+        <p><label>Parent Number : <input type = "tel" id = "pn" name = "pn" ></label></p>
+        <p>Gender : <input type = "radio" name = "radio" value = "radio" >Male <input type = "radio" name = "radio" value = "radio" >Female</p>
+        <p>Address : <br> <textarea rows="6" cols="25"></textarea></p>
+        <p><label>Roll Number : <input type = "text" id = "rn" name = "rn" ></label></p>
+        <p>DOB : <input type = "date" id = "d" name = "d" ></p>
+        <p><label>Clg E-mail : <input type = "email" id = "se" name = "se" ></label></p>
+        <p><label>Personal E-mail : <input type = "email" id = "pe" name = "pe" ></label></p>
+        Country : <select name = "select"> India
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="SouthAfrica">SouthAfrica</option>
+            <option value="Austrila">Austrila</option>
+            <option value="Nepal">Nepal</option>
+        </select>
+        State : <select name = "select"> Telangana
+            <option value="Telangana">Telangana</option>
+            <option value="Ap">AndhraPradesh</option>
+            <option value="Mp">MadyaPradesh</option>
+            <option value="Goa">Goa</option>
+            <option value="Tn">TamilNadu</option>
+        </select>
+        <p>Caste : <input type = "radio" name = "radio" value = "radio" >OC <input type = "radio" name = "radio" value = "radio" >BC<input type = "radio" name = "radio" value = "radio" >SC <input type = "radio" name = "radio" value = "radio" >ST</p>
+        <p>Education Completed : <input type = "checkbox" name = "check" value = "check" >SSC<input type = "checkbox" name = "check" value = "check" >INTER<input type = "checkbox" name = "check" value = "check" >UG<input type = "checkbox" name = "check" value = "check" >PG</p>
+        <p><lebel>Course : <input type = "radio" name = "c" value = "c" >BTECH <input type = "radio" name = "c" value = "c" >BSE<input type = "radio" name = "c" value = "c" >MBA <input type = "radio" name = "c" value = "c" >MTECH</lebel></p>
+        <p><lebel>Specialisation : <input type = "radio" name = "s" value = "s" >CSE <input type = "radio" name = "s" value = "s" >AI/ML<input type = "radio" name = "s" value = "s" >ECE<input type = "radio" name = "s" value = "s" >EEE</lebel></p>
+        <p>ComputerLanguages Known :  <input type = "checkbox" name = "check" value = "check" >C <input type = "checkbox" name = "check" value = "check" >C++ <input type = "checkbox" name = "check" value = "check" >Java <input type = "checkbox" name = "check" value = "check" >Python <input type = "checkbox" name = "check" value = "check" >DSA With C <input type = "checkbox" name = "check" value = "check" >DAS With Python</p>
+        <pre> <input type = "Submit" name = "Submit" value = "Submit" >                             <input type = "reset" name = "reset" value = "Reset" >
+        </pre>
+    </form>
+    </fieldset>
+</body>
+</html>
